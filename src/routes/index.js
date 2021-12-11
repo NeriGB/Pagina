@@ -37,8 +37,8 @@ router.get('/profile',isAuthenticated, (req, res, next) => {
   res.render('profile');
 });
 
-router.get('/peces',isAuthenticated, (req, res, next) => {
-  res.render('peces');
+router.get('/manga',isAuthenticated, (req, res, next) => {
+  res.render('manga');
 });
 
 
